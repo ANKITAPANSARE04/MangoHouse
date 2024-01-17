@@ -1527,12 +1527,12 @@ Responsive / Mobile View for the width of device 800px
 @media screen and (max-width: 600px) {
    .body{overflow-x:hidden!important;}
     .home_s2 p{font-size:16px}
-    h1, h2{font-size:xx-large;}
+    h1, h2{font-size:x-large;}
     .column1 ul {
         padding: 40px 20px;
         position: static;
     }
-     .home_s3 img{margin:20px 15px}
+     .home_s3 img{margin:25px 15px}
     .homeleaf2, .homeleaf3{display:none}
     .list_link_text {
         margin: 150px 20px;
@@ -1565,7 +1565,7 @@ Responsive / Mobile View for the width of device 800px
 }
 
 @media screen and (max-width:577px) {
-     .home_s3 img{margin:20px 15px}
+     .home_s3 img{margin:25px 15px}
    .body{overflow-x:hidden!important;}
     .homeleaf2, .homeleaf3{display:none !important;}
     .row2 {
