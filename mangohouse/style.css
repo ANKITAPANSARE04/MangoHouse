@@ -1538,7 +1538,7 @@ Responsive / Mobile View for the width of device 800px
         position: static;
     }
 
-    .homeleaf2{display:none}
+    .homeleaf2, .homeleaf3{display:none}
     .list_link_text {
         margin: 150px 20px;
         font-weight: normal;
@@ -1576,7 +1576,7 @@ Responsive / Mobile View for the width of device 800px
 
 @media screen and (max-width:577px) {
    
-    .homeleaf2{display:none}
+    .homeleaf2, .homeleaf3{display:none;}
     .row2 {
         display: flex;
     }
