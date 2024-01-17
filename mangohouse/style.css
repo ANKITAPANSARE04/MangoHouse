@@ -1369,7 +1369,7 @@ Responsive / Mobile View for the width of device 800px
     .row2 {
         flex-direction: column-reverse
     }
-
+    .homeleaf2{display:none;}
     .aboutleaf2 {
         max-width: 80%;
     }
@@ -1538,6 +1538,7 @@ Responsive / Mobile View for the width of device 800px
         position: static;
     }
 
+    .homeleaf2{display:none}
     .list_link_text {
         margin: 150px 20px;
         font-weight: normal;
@@ -1575,6 +1576,7 @@ Responsive / Mobile View for the width of device 800px
 
 @media screen and (max-width:577px) {
    
+    .homeleaf2{display:none}
     .row2 {
         display: flex;
     }
