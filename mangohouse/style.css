@@ -1181,9 +1181,7 @@ Responsive / Mobile View for the width of device 800px
 ###################################################################################################  */
 
 @media screen and (max-width: 900px) {
-   .body{overflow-x:hidden!important;}
-    body {
-        margin: 0;
+   .body{overflow-x:hidden!important;  
         font-family: poppins, sans-serif;
         overflow-x: hidden;
     }
@@ -1222,7 +1220,7 @@ Responsive / Mobile View for the width of device 800px
         z-index: 1;
     }
 
-    .aboutleaf1{display: none;}
+    .aboutleaf1, .signin_leaf2,.homeleaf3{display: none;}
     .responsive_menu ul {
         list-style: none;
         padding: 20px;
@@ -1511,17 +1509,10 @@ Responsive / Mobile View for the width of device 800px
         margin-top: 0;
     }
 
-    /* sign in */
-    .signin_leaf2 {
-        transform: rotate(150deg);
-        margin-left: 500px;
-        margin-top: -700px;
-    }
-
+   
     /* contact */
     .contact_leaf {
-        margin-top: -800px;
-        margin-left: 500px;
+        display:none;
     }
 
     /* payment */
@@ -1554,15 +1545,10 @@ Responsive / Mobile View for the width of device 800px
         display: none;
     }
 
-    /* sign in */
-    .signin_leaf2 {
-        margin-left: 400px;
-        margin-top: -650px;
-    }
-
+    
     /* contact */
     .contact_leaf {
-        margin-left: 300px;
+       display:none;
     }
 
     /* cart */
