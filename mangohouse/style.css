@@ -1526,7 +1526,8 @@ Responsive / Mobile View for the width of device 800px
 
 @media screen and (max-width: 600px) {
    .body{overflow-x:hidden!important;}
- 
+    .home_s2 p{font-size:16px}
+    h1, h2{font-size:xx-large;}
     .column1 ul {
         padding: 40px 20px;
         position: static;
