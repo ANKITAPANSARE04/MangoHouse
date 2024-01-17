@@ -1565,6 +1565,7 @@ Responsive / Mobile View for the width of device 800px
 }
 
 @media screen and (max-width:577px) {
+     .home_s3 img{margin:20px 15px}
    .body{overflow-x:hidden!important;}
     .homeleaf2, .homeleaf3{display:none !important;}
     .row2 {
