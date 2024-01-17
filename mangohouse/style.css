@@ -1532,7 +1532,7 @@ Responsive / Mobile View for the width of device 800px
         padding: 40px 20px;
         position: static;
     }
-
+     .home_s3 img{margin:20px 15px}
     .homeleaf2, .homeleaf3{display:none}
     .list_link_text {
         margin: 150px 20px;
